@@ -1,0 +1,2 @@
+\copy products (title,asin) from 'C:/Users/admin/Downloads/Products.csv' delimiter ',' csv header;
+\copy reviews (asin,title,review) from 'C:/Users/admin/Downloads/Reviews.csv' delimiter ',' csv header;
